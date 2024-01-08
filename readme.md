@@ -4,17 +4,17 @@ CLI Contacts Manager is a simple Command Line Interface (CLI) that allows you to
 
 Project Structure:
 
-(galleri/nodeIndex5.png.png)
+![Zrzut ekranu 5](galleri/nodeIndex5.png.png)
 
 Gallery
 
-(galleri/nodeIndex1.png)
+![Zrzut ekranu 1](galleri/nodeIndex1.png)
 
-(galleri/nodeIndex2.png)
+![Zrzut ekranu 2](galleri/nodeIndex2.png)
 
-(galleri/nodeIndex3.png)
+![Zrzut ekranu 3](galleri/nodeIndex3.png)
 
-(galleri/nodeIndex4.png)
+![Zrzut ekranu 4](galleri/nodeIndex4.png)
 
 Installation:
 
