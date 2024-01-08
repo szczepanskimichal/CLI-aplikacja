@@ -9,15 +9,19 @@ CLI Contacts Manager is a simple Command Line Interface (CLI) that allows you to
 # Gallery
 
 We receive and output the entire contact list in the form of a table (console.log)
+
 ![Zrzut ekranu 1](galleri/nodeIndex1.png)
 
 We recive contact by id
+
 ![Zrzut ekranu 2](galleri/nodeIndex2.png)
 
 Add contact
+
 ![Zrzut ekranu 3](galleri/nodeIndex3.png)
 
 We delete the contact
+
 ![Zrzut ekranu 4](galleri/nodeIndex4.png)
 
 # Installation:
