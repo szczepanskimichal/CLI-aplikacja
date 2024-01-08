@@ -1,5 +1,4 @@
 const { Command } = require("commander");
-
 const {
   listContacts,
   getContactById,
@@ -15,9 +14,11 @@ program
   .option("-n, --name <type>", "user name")
   .option("-e, --email <type>", "user email")
   .option("-p, --phone <type>", "user phone");
+
 program.parse(process.argv);
 
 const argv = program.opts();
+
 console.log(__dirname);
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
@@ -29,7 +30,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 
     case "get":
       const contactById = await getContactById(id);
-      console.log(contactById);
+      console.table(contactById);
       break;
 
     case "add":
@@ -38,8 +39,8 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
       break;
 
     case "remove":
-      const contact = await removeContact(id);
-      console.log(contact);
+      const contactToRemove = await removeContact(id);
+      console.table(contactToRemove);
       break;
 
     default:
