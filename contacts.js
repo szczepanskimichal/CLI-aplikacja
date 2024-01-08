@@ -9,11 +9,13 @@ const contactsPath = "./db/contacts.json";
 
 const listContacts = async () => {
   try {
+    console.log("Reading contacts from file...");
     const data = await fs.readFile(contactsPath, "utf-8");
     const contacts = JSON.parse(data);
+    console.log("Contacts loaded successfully:", contacts);
     return contacts;
   } catch (error) {
-    console.log(error.message);
+    console.error("Error while loading contacts:", error.message);
   }
 };
 
