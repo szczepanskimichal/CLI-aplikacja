@@ -3,17 +3,18 @@ Description:
 CLI Contacts Manager is a simple Command Line Interface (CLI) that allows you to manage a list of contacts. The application supports basic contact operations such as displaying a list, adding a new contact, removing a contact, and fetching contact details based on an identifier.
 
 Project Structure:
-![Zrzut ekranu 1](galleri/nodeIndex5.png.png)
+
+(galleri/nodeIndex5.png.png)
 
 Gallery
 
-![Zrzut ekranu 1](galleri/nodeIndex1.png)
+(galleri/nodeIndex1.png)
 
-![Zrzut ekranu 1](galleri/nodeIndex2.png)
+(galleri/nodeIndex2.png)
 
-![Zrzut ekranu 1](galleri/nodeIndex3.png)
+(galleri/nodeIndex3.png)
 
-![Zrzut ekranu 1](galleri/nodeIndex4.png)
+(galleri/nodeIndex4.png)
 
 Installation:
 
